@@ -2,8 +2,8 @@ var BERJ0009 = {
 	init: function () 
 	{
 		let newDiv = document.createElement("div");
-		newDiv.className("box");
-		newDiv.textContent("berj0009");
+		newDiv.className = "box";
+		newDiv.textContent = "berj0009";
 		document.getElementById("boxes").appendChild(newDiv);
 
 
